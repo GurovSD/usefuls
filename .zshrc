@@ -19,5 +19,9 @@ alias gium="git checkout main && git pull"
 
 alias girm="git rebase main"
 
+alias giac='(){ git add . && git commit -m $1 ;}'
+
+alias gips="git push"
+
 #NPM scripts
 alias nrd="npm run dev"
