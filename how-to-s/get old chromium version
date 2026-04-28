@@ -1,0 +1,11 @@
+Идем на страницу https://chromereleases.googleblog.com/search/label/Stable%20updates
+Ищем в архиве нужную дату
+Находим стабильную сборку хрома для нужной платформы, копируем номер версии
+Идем на страницу https://vikyd.github.io/download-chromium-history-version/#/
+Вбиваем в поиске найденную версию, смотрим poistion (это, грумо говоря, коммит хромиума, от которого отпочковался хром соответствующей версии)
+Идем сюда: https://commondatastorage.googleapis.com/chromium-browser-snapshots/index.html
+Находим папку для нужной платформы, внутри в поиске вбиваем найденную position
+Если по этой позиции ничего не находится, можно уменьшеить число на 1 и попробовать поискать дальше
+После того как существующая позиция найдена, заходим внутрь и скачиваем нужный образ
+
+Тут более подробно: https://vikyd.github.io/download-chromium-history-version/#/
